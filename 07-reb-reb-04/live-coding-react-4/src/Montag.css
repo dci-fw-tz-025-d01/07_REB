@@ -1,0 +1,13 @@
+/* 
+2. Wir haben eine App.css für die Komponente App.jsx 
+Spezifische Regeln/Überschreibungen nur für die App Komponente haben!
+*/
+
+.app a{
+ text-decoration: none;
+  color: darkgreen;
+}
+
+.montag-text{
+  font-size:32px;
+}

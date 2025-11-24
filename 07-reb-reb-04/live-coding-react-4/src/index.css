@@ -1,0 +1,15 @@
+/* 
+Das ist ein Beispiel von einer großen Haupt CSS Datei, welche für alle Komponenten gilt, da sie in der main.jsx eingebunden wurde
+Vorallen bei kleineren Projekte oder Projekten mit einem CSS Framework (Bootstrap, Tailwind, ShaCDN) wird dies häufig genutzt, da alle anderen Klasse von dem Framework vordefiniert sind und ich eigene besondere Regeln definieren möchte ODER die vordefinierten Klassen überschreiben möchte.
+Nachteil: Wir haben keine eigene Entkapselung von CSS Code pro Komponente
+Nachteil: Bei einem sehr großen Projekt kann die CSS Datei sehr groß werden 
+*/
+body{
+  color: green;
+}
+/* Jeder Link in Header, Main und Footer ist hellgrün 
+Wenn wir pro Komponente eigenen Linkfarben haben möchten, verwenden wir lieber die Entpakselten CSS Dateien*/
+a{
+  text-decoration: none;
+  color: lightgreen;
+}

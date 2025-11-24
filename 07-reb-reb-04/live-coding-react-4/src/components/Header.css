@@ -1,0 +1,22 @@
+.parent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+.children{
+    margin: 20px;
+    flex: 1;
+}
+.children-2{
+    margin: 20px;
+    flex:3;
+}
+.logo-dci{
+    width:50%;
+    height: auto;
+}
+ul{
+    text-decoration: none;
+    list-style:none;
+}

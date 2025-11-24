@@ -1,0 +1,31 @@
+.parent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    text-align: center;
+}
+.children-1{
+    margin: 20px;
+    flex: 6;
+    /* Die flex Angabe in einer Kind Element einer Flexbox ist die Gesamtheit der Berechnung der Kinder Elemente und deren Aufteilung zueinander */
+    background-color: green;
+}
+.children-2{
+    margin: 20px;
+    flex:3;
+    background-color: yellow;
+}
+.children-3{
+    margin: 20px;
+    flex:1;
+    background-color: red;
+}
+.logo-dci{
+    width:50%;
+    height: auto;
+}
+ul{
+    text-decoration: none;
+    list-style:none;
+}
